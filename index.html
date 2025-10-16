@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Weather Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Tracker </h1>
+            <p>Whether you're watching the weather or want a warning on the warm and windy, you're weclome to witness it here!</p>
+            <div>
+                <label for="">City/Zip Code:</label>
+                <input type = "text" id="locationInput" placeholder="Enter a city or zip code" class="location-input">
+            </div>
+    </header>
+    <section>
+        <div>
+            <img 
+                src="https://img.freepik.com/premium-photo/sunny-summer-background-with-clear-blue-sky-lush-green-meadow-tranquil-sunny-sunny-weather-field-summer-vibes-vibrant-sunny-day-nature-macro-blue-sky-peaceful-sunlight_1336356-632.jpg" 
+                alt="Depicting the forecast" 
+                id="forecast-image"
+            />
+    </section>
+            <div>
+                <h3>Forecast</h3>
+                <ul>
+                    <li>
+                        <div>
+                            <h4>Date</h4>
+                            <span id="date-detail">Oct 16th, 2025</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>Weather</h4>
+                            <span id="weather-detail">Sunny</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>Average Temperature</h4>
+                            <span id="temperature-detail">88F</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h4>Humidity</h4>
+                            <span id="humidity-detail">50%</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <button id="prev-button">Previous Day</button>
+            <button id="weather-button">Get Weather</button>
+            <button id="next-button">Next Day</button>
+        </div>
+
+        <footer>
+            <ul>
+                <li><p>&copy; 2025 Weather Tracker</p></li>
+                <li><a href="https://www.linkedin.com/in/victoriavilar/">Linkedin</a></li>
+                <li><a href="https://github.com/VVilx">Github</a></li>
+            </ul>
+        </footer>
+        <script type="module" src="script.js"></script>
+</body>
+</html>
