@@ -92,6 +92,8 @@ img {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 10px -10px #003859;
+
+    width: 100%;
 }
 
 .forecast-info h3 {
@@ -102,6 +104,10 @@ img {
     margin-bottom: 0.5rem;
 }
 
+.forecast-info ul{
+    padding: 0;
+}
+
 .forecast-detail {
     font-size: 1.4rem;
     background-color: #e6f4f1;
@@ -110,6 +116,11 @@ img {
     padding: 1rem;
     margin-bottom: 1rem;
 
+    width: 100%;
+    height: auto;
+
+    list-style-type: none;
+    box-shadow: 5px 5px 10px #888;
 }
 
 .forecast-detail h4 {
