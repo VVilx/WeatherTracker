@@ -1,0 +1,90 @@
+.header-title { /* basic attributes, values, basic syntax */
+
+    font-size: 36px;
+    color: #003859;
+    padding-bottom: 15px;
+}
+
+.header-text {
+    font-size: 1.2rem;
+}
+
+.location-container {
+    margin-top: 2rem;
+}
+
+.location-label {
+    font-size: 1.2rem;
+    
+}
+
+.date {
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.forecast-container {
+    padding: 1rem 4rem;
+    
+    border: none;
+    border-radius: 2rem;
+}
+
+img {
+    width: 600px;
+
+    border: none;
+    border-radius: 1rem;
+}
+
+.forecast-info {
+    background-color: #90d5ff;
+
+}
+
+.forecast-info h3 {
+    color: #003859;
+    font-size: 2rem;
+    font-weight: lighter;
+
+    margin-bottom: 0.5rem;
+}
+
+.forecast-detail {
+    font-size: 1.4rem;
+    background-color: #e6f4f1;
+
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.forecast-detail h4 {
+    font-weight: bold;
+}
+
+.forecast-detail span {
+    font-weight: lighter;
+}
+
+.forecast-controls {
+    padding: 1rem;
+}
+
+.some-classes {
+    font-size: 1.2rem;
+    background-color: #003859;
+    color: white;
+
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: solid 1px #003859;
+    background-color: #90d5ff;
+}
