@@ -1,13 +1,22 @@
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 body{
     background-color: #FAF0F6;
+
+    margin: 1rem 4rem;
 }
 
 .site-header{
     text-align: center;
+
+    padding: 1rem 0 1rem 1rem;
+    margin: 2rem 0;
+
+    border: 5px solid #579ec6;
+    border-radius: 1rem;
 }
 
 .header-title { /* basic attributes, values, basic syntax */
@@ -21,12 +30,19 @@ body{
     font-size: 1.2rem;
 }
 
+/* location input ----------------------------- */
+
 .location-container {
     margin-top: 2rem;
 }
 
 .location-label {
     font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.location-input{
+    width: 200px;
     
 }
 
