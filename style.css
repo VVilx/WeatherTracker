@@ -43,13 +43,27 @@ body{
 
 .location-input{
     width: 200px;
-    
+
+    padding: 10px;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+.main-container{
+    background-color: #579ec6;
+    border-radius: 1rem;
+    padding: 1.5rem 0.5rem;
+}
+
+.main-container div{
+    margin: 0rem 1rem;
 }
 
 .date {
     font-size: 1.2rem;
     font-weight: bold;
-
+    
+    margin: 1rem 0rem;
 }
 
 .forecast-container {
