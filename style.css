@@ -2,6 +2,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body{
+    background-color: #FAF0F6;
+}
+
+.site-header{
+    text-align: center;
+}
+
 .header-title { /* basic attributes, values, basic syntax */
     font-size: 36px;
     color: #003859;
