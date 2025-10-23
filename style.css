@@ -71,6 +71,11 @@ body{
     
     border: none;
     border-radius: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 img {
@@ -78,11 +83,15 @@ img {
 
     border: none;
     border-radius: 1rem;
+
+    box-shadow: -10px 10px #003859;
 }
 
 .forecast-info {
     background-color: #90d5ff;
-
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 10px -10px #003859;
 }
 
 .forecast-info h3 {
