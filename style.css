@@ -1,7 +1,11 @@
-.header-title { /* basic attributes, values, basic syntax */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.header-title { /* basic attributes, values, basic syntax */
     font-size: 36px;
     color: #003859;
+
     padding-bottom: 15px;
 }
 
